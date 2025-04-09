@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project 1 - NYC Edition</title>
+  <link rel="stylesheet" href="Project1.css">
+</head>
+
+<body>
+
+  <header class="main-header">
+    <h1>Welcome to New York City</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#landmarks">Landmarks</a>
+    <a href="#food">Food</a>
+    <a href="#transportation">Transportation</a>
+  </nav>
+
+  <section id="about">
+    <h2>About NYC</h2>
+    <p>New York City is the largest city in the United States and is known as "The City That Never Sleeps." It has five boroughs: Manhattan, Brooklyn, Queens, The Bronx, and Staten Island. Over 8 million people live here, and it's one of the most diverse cities in the world.</p>
+    <p>Many people come to NYC for work, school, and fun. NYC is also known for its energy and diversity. Over 200 languages are spoken across the city. It’s home to world-famous museums, theaters, universities, and parks.</p>
+    <p>For more about NYC, visit the <a href="https://www.nyc.gov/" target="_blank">official NYC.gov site</a> or check out the <a href="https://www.iloveny.com/" target="_blank">I Love NY tourism site</a>.</p>
+  </section>
+
+  <section id="landmarks">
+    <h2>Famous Landmarks</h2>
+    <ul>
+      <li><a href="https://www.nps.gov/stli/index.htm" target="_blank">Statue of Liberty</a></li>
+      <li><a href="https://www.esbnyc.com/" target="_blank">Empire State Building</a></li>
+      <li><a href="https://www.centralparknyc.org/" target="_blank">Central Park</a></li>
+      <li><a href="https://www.timessquarenyc.org/" target="_blank">Times Square</a></li>
+    </ul>
+    <p>These places are visited by millions of people each year. You can take a ferry to see the Statue of Liberty or go to the top of the Empire State Building for a view of the city.</p>
+
+    <!-- Clickable images -->
+    <a href="https://www.nps.gov/stli/index.htm" target="_blank">
+      <img src="images/statueliberty.jpeg" alt="Statue of Liberty" width="600">
+    </a>
+    <a href="https://www.timessquarenyc.org/" target="_blank">
+      <img src="images/timesquare.jpeg" alt="Times Square" width="600">
+    </a>
+  </section>
+
+  <section id="food">
+    <h2>Food Scene</h2>
+    <p>NYC is world-famous for its food. Whether you're looking for dollar-slice pizza, bagels with lox, or cuisine from any culture, the city has it all.</p>
+
+    <!-- Clickable image -->
+    <a href="https://ny.eater.com/maps/best-pizza-nyc" target="_blank">
+      <img src="images/pizzaslice.jpeg" alt="NYC Pizza Slice" width="600">
+    </a>
+    <img src="images/pretzel.jpeg" alt="NYC Street Pretzel" width="600">
+  </section>
+
+  <section id="transportation">
+    <h2>Getting Around</h2>
+    <p>The NYC Subway, buses, taxis, and ferries help over 8 million residents and visitors get where they need to go every day. Many people also like to walk because there’s so much to see on the streets.</p>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+      <div>
+        <img src="images/Staten Island Ferry.webp" alt="Staten Island Ferry" width="250">
+        <p style="text-align: center;">Staten Island Ferry</p>
+      </div>
+      <div>
+        <img src="images/NYC Subway.jpg" alt="NYC Subway" width="250">
+        <p style="text-align: center;">NYC Subway</p>
+      </div>
+      <div>
+        <img src="images/NYC Taxi.jpg" alt="NYC Taxi" width="250">
+        <p style="text-align: center;">Yellow Cabs</p>
+      </div>
+      <div>
+        <img src="images/NYC BUS.jpg" alt="NYC Bus" width="275">
+        <p style="text-align: center;">MTA Bus</p>
+      </div>
+      <div>
+        <img src="images/NYC TRAM.webp" alt="Roosevelt Island Tram" width="250">
+        <p style="text-align: center;">Roosevelt Island Tram</p>
+      </div>
+    </div>
+  </section>
+
+  <a class="back-to-top" href="#">Back to Top</a>
+
+  <button onclick="showMessage()">Click Me!</button>
+
+  <script>
+    function showMessage() {
+      alert("Hello! Welcome to NYC!");
+    }
+  </script>
+
+  <footer class="site-footer">
+    <div class="social-icons">
+      <a href="mailto:info@nyc.gov" class="social-icon">
+        <img src="images/logos/email.png" alt="Email" width="32" height="32">
+      </a>
+      <a href="https://www.instagram.com/nycgov/" class="social-icon" target="_blank">
+        <img src="images/logos/instagram.png" alt="Instagram" width="32" height="32">
+      </a>
+      <a href="tel:+12126392100" class="social-icon">
+        <img src="images/logos/phone.png" alt="Phone" width="32" height="32">
+      </a>
+      <a href="https://x.com/nycgov" class="social-icon" target="_blank">
+        <img src="images/X image.png" alt="X Twitter" width="32" height="32">
+      </a>
+      <a href="https://www.facebook.com/groups/newyorkcitymetro/" class="social-icon" target="_blank">
+        <img src="images/facebook.jpeg" alt="Facebook" width="32" height="32">
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+
+
